@@ -6,6 +6,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import FeaturedInfo from "./components/featuredInfo/FeaturedInfo";
 import Product from "./components/product/Product";
 import Userinfo from "./pages/userList/Userinfo";
+import User from "./pages/user/User";
 
 function App() {
   const Layout = () => {
@@ -55,6 +56,10 @@ function App() {
         {
           path: "/product",
           element: <Product />,
+        },
+        {
+          path: "/user",
+          element: <User />,
         },
         // {
         //   path: "/profile/:id",

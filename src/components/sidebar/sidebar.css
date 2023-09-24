@@ -3,6 +3,8 @@
     /* height: calc(100vh - 50px); */
     background-color: var(--red);
     position: sticky;
+    /* overflow: scroll; */
+    /* height: 100vh; */
     border-top: 2px solid var(--cyan);
     top: 50px;
   }
@@ -10,6 +12,7 @@
   .sidebarWrapper {
     padding: 20px;
     color: var(--cyan);
+    /* position: static; */
   }
   
   .sidebarMenu {
