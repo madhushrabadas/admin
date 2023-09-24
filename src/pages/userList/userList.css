@@ -19,15 +19,16 @@
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
-     color: #3bb077;
+     color: #02361d;
      background-color: inherit;
     color: white;
     cursor: pointer;
     margin-right: 20px;
 }
+.userListedit{color: #036b41;}
 
 .userListDelete{
-    color: red;
+    color: var(--red);
     cursor: pointer;
 }
 
