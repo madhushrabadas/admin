@@ -2,10 +2,9 @@
   font-family: fredoka, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   font-weight: 400;
-  font-size: 1.4rem;
-  color-scheme: light dark;
-  color: rgba(32, 30, 30, 0.87);
-  background-color: #f3e1f3;
+  font-size: 1.4rem; 
+  /* color: rgba(251, 238, 238, 0.87); */
+  background-color: #067e6891;
  --red:#da0444;
  --cyan:#9eefd3;
 }
